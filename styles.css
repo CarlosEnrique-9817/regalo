@@ -20,9 +20,12 @@ body {
   .cards {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap; /* permite que se bajen si no entran en una fila */
+    gap: 40px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px;
   }
+  
   
   .card {
     width: 200px;
