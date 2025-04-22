@@ -20,7 +20,8 @@ body {
   .cards {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
+    flex-wrap: wrap; /* permite que se bajen si no entran en una fila */
   }
   
   .card {
